@@ -1,3 +1,64 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+.CFUserTextEncoding
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Python
+*.dat
+venv/
+.venv
+env/
+.env
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+#Make
+Makefile
+
+#Docker
+.dockerignore
+
+logs/
+
+# Local config files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.npm/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+tmp.*
+temp.*
+.gitignore
+
 # Logs
 logs
 *.log
