@@ -1,0 +1,29 @@
+{
+  "name": "logging-task1",
+  "version": "1.0.0",
+  "description": "Node.js application demonstrating a basic logging setup using the Winston library.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node src/main.js",
+    "test": "mocha test/logger.test.js --reporter spec"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roitonen/logging-task1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roitonen/logging-task1/issues"
+  },
+  "homepage": "https://github.com/roitonen/logging-task1#readme",
+  "dependencies": {
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
